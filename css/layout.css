@@ -1,7 +1,11 @@
 img {
-	width: 50%;
+	size: small;
 }
+
+
 
 .menu-items {
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
