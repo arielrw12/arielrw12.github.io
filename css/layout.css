@@ -1,8 +1,13 @@
 img {
 	size: small;
+	a
 }
 
-
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 
 .menu-items {
 	display: flex;
