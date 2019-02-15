@@ -18,3 +18,8 @@ nav li {
 a.menu-item {
 	text-decoration: none;
 }
+
+div.contact {
+	background-color: transparent;
+	border-color: purple
+}
