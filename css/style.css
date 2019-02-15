@@ -11,8 +11,7 @@ h2 {
 }
 
 nav li {
-	background-color: black;
-	color: white;
+	background-color: rgb(255,250,240);
 }
 
 a.menu-item {
