@@ -15,6 +15,6 @@ nav li {
 	color: white;
 }
 
-a {
+a.menu-item {
 	text-decoration: none;
 }
