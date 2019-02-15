@@ -13,5 +13,8 @@ h2 {
 nav li {
 	background-color: black;
 	color: white;
+}
+
+a {
 	text-decoration: none;
 }
