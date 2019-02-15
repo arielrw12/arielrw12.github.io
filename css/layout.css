@@ -24,7 +24,7 @@ nav ul {
 	flex-direction: row;
 	justify-content: space-around;
 	margin: 2rem auto;
-	padding: 6px;
+	padding: 2px;
 	max-width: 50px;
 }
 
