@@ -23,9 +23,9 @@ nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin: 2px;
-	padding: 2px;
-	max-width: 4px;
+	margin: 1rem auto;
+	padding: 1rem;
+	max-width: 4rem;
 }
 
 nav li {
