@@ -34,3 +34,11 @@ nav li {
 	border-style: solid;
 	border-radius: 25px;
 }
+
+.section-contact {
+	display: flex;
+	border-style: solid;
+	border-radius: 25px;
+	margin: 1rem auto;
+	padding: 1rem;
+}
