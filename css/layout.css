@@ -23,14 +23,14 @@ nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin: 2rem auto;
+	margin: 2px;
 	padding: 2px;
-	max-width: 10px;
+	max-width: 4px;
 }
 
 nav li {
-	margin: 4rem;
-	padding: 2rem;
+	margin: 1rem;
+	padding: 1rem;
 	border-style: solid;
 	border-radius: 25px;
 }
