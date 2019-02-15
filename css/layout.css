@@ -9,6 +9,19 @@ img.center {
 	margin-right: auto
 }
 
+.hero-image {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5))url(./images/treesbackground.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+	height: 90vh;
+	width: 100%;
+	justify-content: flex-end;
+	margin-bottom: 2rem;
+}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
