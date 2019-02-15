@@ -9,3 +9,8 @@ h1 {
 h2 {
 	background-color: rgb(46,139,87);
 }
+
+nav li {
+	background-color: black;
+	color: white;
+}
