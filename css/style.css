@@ -1,37 +1,30 @@
 html {
-	background-color: rgb(47,79,79);
+	background-color: rgb(128, 128,128);
 }
 
 h1 {
+	position: relative;
 	color: rgb(255,250,240);
-	font-size;
+	font-weight: bold;
+	font-size: 3rem;
 }
 
-.hero-image {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5))url(./images/treesbackground.jpg);
-	background-position: 50% 50%;
-	background-size: cover;
-	height: 90vh;
-	width: 100%;
-	justify-content: flex-end;
-	margin-bottom: 2rem;
-
 h2 {
-	background-color: rgb(46,139,87);
+	background-color: rgba(244,164,96, 0.7);
+	background-blend-mode: all;
+	color:rgb(255,250,240);
 }
 
 nav li {
-	background-color: rgb(255,250,240);
+	background-color: rgb(128, 128,128);
+	color: rgb(143, 188, 143);
 }
 
-a.menu-item {
+.menu-item {
 	text-decoration: none;
+	color:rgb(255,250,240);
 }
 
-div.contact {
-	background-color: white;
-	border-color: purple
+.contact {
+	
 }
