@@ -36,8 +36,8 @@ nav ul {
 nav ul {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	margin: 1rem auto;
+	justify-content: space-between;
+	margin: 1rem;
 	padding: 1rem;
 	
 }
@@ -50,10 +50,24 @@ nav li {
 	border-radius: 15px;
 }
 
+.me {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.me-info {
+	max-width: 60rem;
+}
+
 .contact {
 	display: flex;
 	flex-direction: column;
-	
+	min-width: 30rem;
+	max-width: 30%;
 	border-radius: 25px;
 	margin: 2rem auto;
 	padding: 1rem;
