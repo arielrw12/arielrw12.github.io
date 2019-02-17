@@ -57,8 +57,9 @@ nav li {
 	display: flex;
 	min-width: 20%;
 	max-width: 30%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 1rem;
+	margin-right: 1rem;
+
 }
 
 .me-info {
