@@ -53,7 +53,7 @@ nav li {
 }
 
 .resize-center {
-	justify-content: center;
+	align-items: center;
 	display: flex;
 	min-width: 20%;
 	max-width: 30%;
@@ -62,13 +62,13 @@ nav li {
 }
 
 .me-info {
-	justify-content: flex-start;
+	align-items: flex-start;
 	min-width: 20%;
 	max-width: 30%;
 }
 
 .skills {
-	justify-content: flex-end;
+	align-items: flex-end;
 	min-width: 20%;
 	max-width: 30%;
 }
