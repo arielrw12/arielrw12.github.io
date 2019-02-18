@@ -2,17 +2,26 @@ html {
 	background-color: rgb(128, 128,128);
 }
 
+body {
+	font-size: 100%;
+}
+
 h1 {
 	position: relative;
 	color: rgb(255,250,240);
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 3em;
 }
 
 h2 {
 	background-color: rgba(244,164,96, 0.7);
 	background-blend-mode: all;
 	color:rgb(255,250,240);
+	font-size: 1.875em;
+}
+
+p {
+	font-size: .875em;
 }
 
 nav li {
