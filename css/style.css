@@ -28,6 +28,7 @@ nav li {
 .me-container {
 	background-color: rgb(255,250,240);
 	color: rgb(100, 80, 100);
+	font-size: 1rem;
 }
 
 .resize-center {
