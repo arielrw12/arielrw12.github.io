@@ -33,3 +33,10 @@ nav li {
 .resize-center {
 	background-color: rgb(255, 127, 80);
 }
+
+.footer {
+	background-color: color:rgb(255,250,240);
+	border-style: solid;
+	border-radius: 10px;
+	border-color: (0, 80, 0);
+}

@@ -83,5 +83,6 @@ nav li {
 }
 
 .footer-container {
-	
+	display: flex;
+	justify-content: center;
 }
