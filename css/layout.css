@@ -67,9 +67,21 @@ nav li {
 }
 
 .me-info {
-	
+	display: flex;
+	align-items: center;
 }
 
 .skills {
+}
 
+.entire-project-section {
+
+}
+
+.projects-section {
+
+}
+
+.footer-container {
+	
 }
