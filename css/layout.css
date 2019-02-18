@@ -44,9 +44,9 @@ nav li {
 
 .me-container {
 	display: grid;
-	grid-template-columns: 320px 320px 320px;
+	grid-template-columns: 32% 32% 32%;
 	margin: 1rem auto;
-	width: 1000px;
+	width: 96%;
 	padding: 1rem;
 }
 
