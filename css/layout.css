@@ -44,7 +44,7 @@ nav li {
 
 .me-container {
 	display: grid;
-	grid-template-columns: 32% 32% 32%;
+	grid-template-columns: 33% 33% 33%;
 	margin: 1rem auto;
 	max-width: 800rem;
 	max-height: 600rem;
@@ -81,7 +81,13 @@ nav li {
 }
 
 .projects-section {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 1rem;
+}
 
+.project {
+	margin: 1rem;
 }
 
 .footer-container {
