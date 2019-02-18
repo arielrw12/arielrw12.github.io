@@ -51,8 +51,7 @@ nav li {
 }
 
 .resize-center {
-	align-items: center;
-	display: flex;
+	max-width: 95%;
 	margin-left: 1rem;
 	margin-right: 1rem;
 	border-style: solid;
@@ -60,11 +59,9 @@ nav li {
 }
 
 .me-info {
-	justify-content: flex-start;
-	align-items: flex-start;
+	
 }
 
 .skills {
-	justify-content: flex-end;
-	align-items: flex-end;
+
 }
