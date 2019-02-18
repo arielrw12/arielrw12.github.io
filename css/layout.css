@@ -44,14 +44,14 @@ nav li {
 
 .me-container {
 	display: grid;
-	grid-template-columns: 400px 400px 400px;
-	margin: 2rem auto;
-	width: 1200px;
+	grid-template-columns: 320px 320px 320px;
+	margin: 1rem auto;
+	width: 1000px;
 	padding: 1rem;
 }
 
 .resize-center {
-	max-width: 300px;
+	
 	margin-left: 1rem;
 	margin-right: 1rem;
 	border-style: solid;
