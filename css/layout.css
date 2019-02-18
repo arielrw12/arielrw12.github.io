@@ -51,6 +51,9 @@ nav li {
 }
 
 .resize-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	max-width: 100%;
 	margin-left: 1rem;
 	margin-right: 1rem;
