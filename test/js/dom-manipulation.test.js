@@ -12,8 +12,10 @@ describe('removeClass', () => {
         removeClass(myParagraph, 'test-class');
 
         // Assert
-        expect(myParagraph.classList.contains('test-class')).toBeTruthy();
+        expect(myParagraph.classList.contains('test-class')).toBeFalsy();
     })
 })
 
-function removeClass(element, classToRemove) {}
+function removeClass(element, classToRemove) {
+    element.classList.remove(classToRemove);
+}
