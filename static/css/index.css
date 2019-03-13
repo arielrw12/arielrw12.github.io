@@ -1,17 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .body-container {
-    background-image: url(/images/forest3.jpg);
+    background-image: url(static/images/forest3.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    min-height: 40rem;
+    min-width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 ul {
     text-decoration: none;
-}
-
-nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style-type: none;
+}
+
+li {
+    margin: 5rem;
 }

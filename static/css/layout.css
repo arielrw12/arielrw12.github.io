@@ -1,5 +1,5 @@
 
-.hero-container {
+/* .hero-container {
 	display: flex;
 	align-items: flex-start;
 	background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)),url(../images/treesbackground.jpg);
@@ -9,29 +9,17 @@
 	width: 100%;
 	justify-content: center;
 	margin-bottom: 1rem;
-}
+} */
 
 h1 {
 	
 }
 
-.menu-container {
-	background-color: inherit;
-	margin-left: 100px;
-}
 
-nav ul {
+/* nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-
-nav ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin: 1rem;
-	padding: 1rem;
 }
 
 nav li {
@@ -40,7 +28,7 @@ nav li {
 	max-width: 5rem;
 	border-style: hidden;
 	border-radius: 15px;
-}
+} */
 
 .me-container {
 	display: grid;
