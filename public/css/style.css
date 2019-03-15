@@ -2,12 +2,8 @@
 	margin: 0;
 	padding: 0;
 }
-html {
+/* html {
 	background-color: rgb(128, 128,128);
-}
-
-body {
-	font-size: 100%;
 }
 
 h1 {
@@ -26,9 +22,9 @@ h2 {
 
 p {
 	font-size: .875em;
-}
+} */
 
-nav li {
+/* nav li {
 	background-color: rgb(128, 128,128);
 	color: rgb(143, 188, 143);
 }
@@ -50,4 +46,4 @@ nav li {
 
 .footer-container {
 	background-color: rgb(255,250,240);
-	}
+	} */

@@ -19,8 +19,31 @@
     height: 40rem;
 }
 
-.header-home-link {
+.header-home-nav-link {
+    display: flex;
+    justify-content: space-between;
+}
 
+.nav {
+    position: relative;
+}
+
+.nav-list {
+    position: absolute;
+    right: 0;
+    background-color: black;
+    color: white;
+}
+
+.nav-item {
+    margin: 1rem;
+    text-decoration-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
 }
 
 .header-title {
