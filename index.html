@@ -3,7 +3,7 @@
 
 <head>
 	<title>Ariel Webb</title>
-	<link rel="icon" type="image/png" href="/images/AW-favicon.ico">
+	<link rel="icon" type="image/png" href="public/images/AW-favicon.ico">
 	<link rel="stylesheet" href="public/css/index.css">
 </head>
 
@@ -18,16 +18,36 @@
 		<div class="menu-container">
 			<nav>
 				<ul>
-						<!-- "/Users/WeCanCodeIT/wcci/code/arielrw12.github.io/aboutMe.html" -->
-					<li><a href="aboutMe.html" class="menu-item">About Me</a></li>
-						<!-- "/Users/WeCanCodeIT/wcci/code/arielrw12.github.io/projects.html" -->
-					<li><a href="projects.html" class="menu-item">Projects</a></li>
-					<!-- <li class="menu-item">Contact</li> -->
+					<button class="button"><li><a href="aboutMe.html" class="menu-item">About Me</a></li></button>
+					<button class="button"><li><a href="projects.html" class="menu-item">Projects</a></li></button>
+					<button class="button modal-button"><li class="menu-item">Contact</li></button>
+					<div class="modal hide">
+						<div class="modal-content">
+							<div class="modal-header-and-exit">
+								<h2>Hi, I would love to hear from you!</h2>
+								<button class="modal-exit"><image src="public/images/exit.svg"></image></button>
+							</div>
+							<h3>Add me on LinkedIn, follow me on GitHub, or shoot me an email to chat or schedule getting coffee!</h3>
+							<div class="modal-contact-links">
+								<a href="https://www.linkedin.com/in/ariel-webb-2a67b617b/"><image src="public/images/linkedin-brands.svg" class="contact-logo-resize"></image></a>
+								<a href="https://www.github.com/arielrw12/"><image src="public/images/github.svg" class="contact-logo-resize" ></image></a>
+								<a href="mailto:arielwebb12@gmail"><image src="public/images/email.svg" class="contact-logo-resize"></image></a>
+							</div>
+						</div>
+					</div>
 				</ul>
 			</nav>
 		</div>
 	</main>
 	</div>
+
+	<!-- <div class="modal hide">
+		<div class="modal-content">
+			<p>Content</p>
+		</div>
+	</div> -->
+
+	<script src="./public/js/modal.js"></script>
 
 </body>
 </div>
