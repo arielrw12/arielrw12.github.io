@@ -5,8 +5,13 @@
 
 h1 {
     color: white;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bolder;
+}
+
+.subtitle {
+    color: white;
+    font-size: 40px;
 }
 
 a {
@@ -14,6 +19,15 @@ a {
     color: white;
 }
 
+h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
 
 .body-container {
     background-image: url(../images/pine-forest-unsplash-2.jpg);
@@ -26,12 +40,20 @@ a {
     min-width: 100%;
 }
 
-.title {
+.titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+/* .title {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5rem;
-}
+} */
 
 .menu-container {
     display: flex;
@@ -120,15 +142,6 @@ button:focus {
     width: 100%;
 }
 
-h2 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 4rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
 
 /* .modal-background {
    background: rgba(51,51,51,0.2;
