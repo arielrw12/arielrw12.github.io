@@ -244,9 +244,12 @@ h3 {
 .project__button {
     color: white;
     background-color: black;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border: none;
+    margin: 1rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
 }
 
 .project__collapsible {
