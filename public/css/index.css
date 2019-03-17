@@ -16,8 +16,8 @@ a {
 
 
 .body-container {
-    background-image: url(../images/forest3.jpg);
-    /* background-repeat: no-repeat; */
+    background-image: url(../images/pine-forest-unsplash-2.jpg);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
