@@ -1,5 +1,16 @@
 document.getElementsByClassName
 
+// window.addEventListener("DOMContentLoaded", startup);
+
+// function startup() {
+//     modal();
+// }
+
+// window.onload = function() {
+//     prepareEventHandlers();
+//     }
+
+// function prepareEventHandlers() {
 modal();
 
 function modal() {
@@ -7,7 +18,7 @@ function modal() {
 }
 
 function toggleHide(element) {
-    element.classList.toggle('hide');
+    element.classList.toggle('hide-modal');
 }
 
 function bindModalButtonToModal() {
@@ -25,3 +36,4 @@ exitButton.addEventListener('click', function() {
     const modal = document.querySelector('.modal');
     toggleHide(modal);
 })
+// }
