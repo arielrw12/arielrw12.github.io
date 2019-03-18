@@ -11,10 +11,10 @@ function toggleHide(element) {
 }
 
 function bindNavButtonToNavList() {
-    const navButton = document.querySelector('.nav__button');
+    const navButton = document.querySelector('.nav-button');
 
     navButton.addEventListener('click', function() {
-        const navList = document.querySelector('.nav__list');
+        const navList = document.querySelector('.nav-list');
         toggleHide(navList);
     });
 }

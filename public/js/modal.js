@@ -11,7 +11,7 @@ function toggleHide(element) {
 }
 
 function bindModalButtonToModal() {
-    const modalButton = document.querySelector('.modal__button');
+    const modalButton = document.querySelector('.modal-button');
 
     modalButton.addEventListener('click', function() {
         const modal = document.querySelector('.modal');
@@ -19,7 +19,7 @@ function bindModalButtonToModal() {
     });
 }
 
-const exitButton = document.querySelector('.modal__exit');
+const exitButton = document.querySelector('.modal-exit');
 
 exitButton.addEventListener('click', function() {
     const modal = document.querySelector('.modal');
