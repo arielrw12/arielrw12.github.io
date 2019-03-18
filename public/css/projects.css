@@ -9,123 +9,12 @@ h1 {
     font-size: 6rem;
 }
 
-a {
-    text-decoration: none;
-}
-
 .projects-section a {
     color: black;
 }
 
 a h2 {
     color: black;
-}
-
-p {
-    font-size: 2rem;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.projects-header-container {
-    background-image: url(../images/laptop-oskar-yildiz-unsplash-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* align-content: center; */
-    height: 40rem;
-}
-
-.header-home-nav-link {
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo-resize {
-    width: 10rem;
-    height: 10rem;
-    margin: 1rem;
-}
-
-.nav-button {
-    width: 6rem;
-    height: 6rem;
-    border: none;
-}
-
-.nav-button:hover {
-    cursor: pointer;
-}
-
-.nav-resize {
-    width: 6rem;
-    height: 6rem;
-}
-
-.nav {
-    position: relative;
-}
-
-.nav-list {
-    position: absolute;
-    right: 0;
-    background-color: black;
-    color: white;
-}
-
-.nav-item {
-    margin: 1rem;
-    color: white;
-    font-weight: bold;
-    font-size: 5rem;
-}
-
-.hide {
-    display: none;
-}
-
-.button {
-    border: none;
-    background: none;
-    color: inherit;
-    padding: 0;
-    font: inherit;
-}
-
-.button:hover {
-    cursor: pointer;
-}
-
-button:focus {
-    outline :0;
-}
-
-.modal {
-    z-index: 20;
-    /* margin: 30rem; */
-    background-color: white;
-    border-color: black;
-    position: fixed;
-    display: flex;
-    left: 20rem;
-    top: 10rem;
-    /* align-items: center; */
-    justify-content: space-between;
-    padding-left: 1rem;
-    height: 60%;
-    width: 60%;
-}
-
-.nav-item a {
-    color: white;
-}
-
-.modal-content {
-    width: 100%;
 }
 
 h2 {
@@ -138,46 +27,28 @@ h3 {
     font-size: 2rem;
 }
 
-/* .modal-background {
-   background: rgba(51,51,51,0.2;
-   position:fixed;
-   z-index:1;
-   width:100%;
-   height:100%;
-} */
 
-.hide {
-    display: none;
+h4 {
+    font-size: 20px;
 }
 
-.modal-header-and-exit {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+p {
+    font-size: 2rem;
 }
 
-.modal-exit {
-    width: 4rem;
-    height: 4rem;
+.projects__header-container {
+    background-image: url(../images/laptop-oskar-yildiz-unsplash-2.jpg);
 }
 
-.modal-contact-links {
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem;
+.nav-item a {
+    color: white;
 }
 
-.contact-logo-resize {
-    width: 5rem;
-    height: 5rem;
-}
-
-.header-title {
-    display: flex;
-    align-items: center;
-    margin-left: 10rem;
-    font-size: 40px;
+.modal {
+    left: 20rem;
+    top: 10rem;
+    height: 60%;
+    width: 60%;
 }
 
 .projects-section {
@@ -195,47 +66,32 @@ h3 {
 
 .project-a {
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
 }
 
 .project-b {
     background-color: rgb(60, 89, 182);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
 }
 
-.project-pic {
+.project__pic {
 	display: flex;
 	justify-content: center;
     align-items: center;
+    height: 120rem;
 }
 
-.project-pic-one {
-    height: 40rem;
-    width: 50rem;
+.project__pic-one {
 	margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1.5rem;
 }
 
-.project-pic-two {
-	height: 40rem;
-    width: 50rem;
+.project__pic-two {
 	margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1.5rem;
 }
 
-.project-pic-three {
-	height: 40rem;
-    width: 50rem;
+.project__pic-three {
 	margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1.5rem;
@@ -256,18 +112,6 @@ h3 {
     background-color: rgb(63, 63, 63);
     color: white;
     text-align: center;
-}
-
-.footer-container {
-    text-align: center;
-    font-size: 20px;
-    background-color: rgb(37, 36, 36);
-    color: white;
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer-container a {
