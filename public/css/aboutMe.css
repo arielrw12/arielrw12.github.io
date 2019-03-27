@@ -124,10 +124,6 @@ h3 {
     font-size: 2rem;
 }
 
-.hide {
-    display: none;
-}
-
 .modal-header-and-exit {
     display: flex;
     flex-direction: row;
