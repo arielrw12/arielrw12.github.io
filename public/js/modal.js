@@ -1,16 +1,3 @@
-document.getElementsByClassName
-
-// window.addEventListener("DOMContentLoaded", startup);
-
-// function startup() {
-//     modal();
-// }
-
-// window.onload = function() {
-//     prepareEventHandlers();
-//     }
-
-// function prepareEventHandlers() {
 modal();
 
 function modal() {
@@ -36,4 +23,3 @@ exitButton.addEventListener('click', function() {
     const modal = document.querySelector('.modal');
     toggleHide(modal);
 })
-// }

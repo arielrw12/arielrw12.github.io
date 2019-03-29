@@ -1,12 +1,10 @@
-document.getElementsByClassName
-
 dropdown();
 
 function dropdown() {
     bindNavButtonToNavList();
 }
 
-function toggleHide(element) {
+function toggleMenuHide(element) {
     element.classList.toggle('hide');
 }
 
@@ -15,6 +13,6 @@ function bindNavButtonToNavList() {
 
     navButton.addEventListener('click', function() {
         const navList = document.querySelector('.nav-list');
-        toggleHide(navList);
+        toggleMenuHide(navList);
     });
 }

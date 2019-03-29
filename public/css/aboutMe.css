@@ -71,13 +71,7 @@ a {
     font-size: 5rem;
 }
 
-.hide {
-    display: none;
-}
 
-.hide-modal {
-    display: none;
-}
 
 .button {
     border: none;
@@ -231,4 +225,12 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.hide-modal {
+    display: none;
+}
+
+.hide {
+    display: none;
 }
