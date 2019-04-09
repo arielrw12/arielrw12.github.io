@@ -1,7 +1,6 @@
 {
   "name": "arielrw12.github.io",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest test"
@@ -18,6 +17,12 @@
   },
   "homepage": "https://github.com/arielrw12/arielrw12.github.io#readme",
   "dependencies": {
-    "jest": "^24.5.0"
-  }
+    "jest": "^24.5.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "description": ""
 }
